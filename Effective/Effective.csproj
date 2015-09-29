@@ -52,11 +52,11 @@
     <Compile Include="Item1\1_Property.cs" />
     <Compile Include="Item1\2_로직포함.cs" />
     <Compile Include="Item1\3_데이터바인딩.cs" />
-    <Compile Include="Item1\3_데이터바인딩폼.cs">
+    <Compile Include="Item1\3_데이터바인딩_폼.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Item1\3_데이터바인딩폼.Designer.cs">
-      <DependentUpon>3_데이터바인딩폼.cs</DependentUpon>
+    <Compile Include="Item1\3_데이터바인딩_폼.Designer.cs">
+      <DependentUpon>3_데이터바인딩_폼.cs</DependentUpon>
     </Compile>
     <Compile Include="Item1\4_양방향바인딩.cs" />
     <Compile Include="Item1\4_양방향바인딩폼.cs">
@@ -94,9 +94,6 @@
     <Compile Include="Item3\3_As.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Item1\3_데이터바인딩폼.resx">
-      <DependentUpon>3_데이터바인딩폼.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Item1\4_양방향바인딩폼.resx">
       <DependentUpon>4_양방향바인딩폼.cs</DependentUpon>
     </EmbeddedResource>

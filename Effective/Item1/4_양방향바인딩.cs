@@ -10,7 +10,7 @@ namespace Effective.Item1
     {
         public void Show()
         {
-            _3_데이터바인딩폼 dlg = new _3_데이터바인딩폼();
+            _4_양방향바인딩폼 dlg = new _4_양방향바인딩폼();
             dlg.Show();
         }
     }

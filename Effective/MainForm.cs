@@ -84,7 +84,7 @@ namespace Effective
             {
                 Name = "김더존",
                 PhoneNumber = "0101111111"
-            }
+            };
             string s = String.Format(new CustomFormatter(), "{0}", tempClass);
         }
     }
