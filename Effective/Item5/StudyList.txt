@@ -1,0 +1,8 @@
+﻿
+Item5 항상 ToString()을 작성하라.
+
+ 1. ToString()을 작성하라. 왜?
+  -> 객체의 상태, 디버깅
+
+ 2. Customer
+ 3. IFormatable

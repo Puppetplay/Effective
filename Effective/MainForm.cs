@@ -11,6 +11,8 @@ using System.Windows.Forms;
 using Effective.Item1;
 using Effective.Item2;
 using Effective.Item3;
+using Effective.Item4;
+using Effective.Item5;
 
 namespace Effective
 {
@@ -41,20 +43,49 @@ namespace Effective
 
         private void bt3_1_Click(object sender, EventArgs e)
         {
-            Item3._1_Cast tempClass = new _1_Cast();
+            _1_Cast tempClass = new _1_Cast();
             tempClass.Func2();
         }
 
         private void bt_3_4_Click(object sender, EventArgs e)
         {
-            Item3._4_UserDefineCast tempClass = new _4_UserDefineCast();
+            _4_UserDefineCast tempClass = new _4_UserDefineCast();
             tempClass.Func1();
         }
 
         private void bt_3_6_Click(object sender, EventArgs e)
         {
-            Item3._6_ValueType tempClass = new _6_ValueType();
+            _6_ValueType tempClass = new _6_ValueType();
             tempClass.Func1();
+        }
+
+        private void bt_4_1_Click(object sender, EventArgs e)
+        {
+            _1_If tempClass = new _1_If();
+            tempClass.Func1();
+        }
+
+        private void bt_4_3_Click(object sender, EventArgs e)
+        {
+            _3_ConditionalAttribute tempClass = new _3_ConditionalAttribute();
+            tempClass.Func1();
+        }
+
+        private void bt5_2_Click(object sender, EventArgs e)
+        {
+            _2_Customer tempClass = new _2_Customer();
+            tempClass.Name = "김더존";
+            tempClass.Func1();
+        }
+
+        private void bt5_3_Click(object sender, EventArgs e)
+        {
+            _3_Customer tempClass = new _3_Customer
+            {
+                Name = "김더존",
+                PhoneNumber = "0101111111"
+            }
+            string s = String.Format(new CustomFormatter(), "{0}", tempClass);
         }
     }
 }

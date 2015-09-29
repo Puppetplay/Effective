@@ -1,0 +1,8 @@
+﻿
+Item4 #if 대신 Conditional Attribute를 사용하라.
+
+1. Conditional(Attribute) -> #if 를 대체하기 위해등장.
+2. Error #if
+3. Conditional(Attribute) 조건에 만족하지 않으면 호출되지 않음(함수는 컴파일됨)
+4. 격리가능
+5. #if else if

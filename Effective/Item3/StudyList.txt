@@ -1,5 +1,5 @@
 ﻿
-Item2 cast 보다는 is나 as가 좋다.
+Item3 cast 보다는 is나 as가 좋다.
 
 1. Cast란?
 2. Is란?

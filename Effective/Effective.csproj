@@ -18,7 +18,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DefineConstants>TRACE;DEBUG;CAR3</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
@@ -30,6 +30,9 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -71,6 +74,11 @@
     <Compile Include="Item3\5_Example.cs" />
     <Compile Include="Item3\6_ValueType.cs" />
     <Compile Include="Item3\7_중복.cs" />
+    <Compile Include="Item4\1_If.cs" />
+    <Compile Include="Item4\2_Error.cs" />
+    <Compile Include="Item4\3_ConditionalAttribute.cs" />
+    <Compile Include="Item5\2_Customer.cs" />
+    <Compile Include="Item5\3_IFormatable.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -121,6 +129,8 @@
     <Content Include="Item1\StudyList.txt" />
     <Content Include="Item2\StudyList.txt" />
     <Content Include="Item3\StudyList.txt" />
+    <Content Include="Item4\StudyList.txt" />
+    <Content Include="Item5\StudyList.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

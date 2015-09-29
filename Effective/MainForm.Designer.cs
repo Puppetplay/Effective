@@ -36,6 +36,10 @@
             this.bt_3_3 = new System.Windows.Forms.Button();
             this.bt_3_4 = new System.Windows.Forms.Button();
             this.bt_3_6 = new System.Windows.Forms.Button();
+            this.bt_4_1 = new System.Windows.Forms.Button();
+            this.bt_4_3 = new System.Windows.Forms.Button();
+            this.bt5_2 = new System.Windows.Forms.Button();
+            this.bt5_3 = new System.Windows.Forms.Button();
             this.flowLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -49,6 +53,10 @@
             this.flowLayoutPanel1.Controls.Add(this.bt_3_3);
             this.flowLayoutPanel1.Controls.Add(this.bt_3_4);
             this.flowLayoutPanel1.Controls.Add(this.bt_3_6);
+            this.flowLayoutPanel1.Controls.Add(this.bt_4_1);
+            this.flowLayoutPanel1.Controls.Add(this.bt_4_3);
+            this.flowLayoutPanel1.Controls.Add(this.bt5_2);
+            this.flowLayoutPanel1.Controls.Add(this.bt5_3);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
@@ -131,6 +139,50 @@
             this.bt_3_6.UseVisualStyleBackColor = true;
             this.bt_3_6.Click += new System.EventHandler(this.bt_3_6_Click);
             // 
+            // bt_4_1
+            // 
+            this.bt_4_1.Location = new System.Drawing.Point(8, 414);
+            this.bt_4_1.Margin = new System.Windows.Forms.Padding(8);
+            this.bt_4_1.Name = "bt_4_1";
+            this.bt_4_1.Size = new System.Drawing.Size(237, 42);
+            this.bt_4_1.TabIndex = 7;
+            this.bt_4_1.Text = "4_1_#if";
+            this.bt_4_1.UseVisualStyleBackColor = true;
+            this.bt_4_1.Click += new System.EventHandler(this.bt_4_1_Click);
+            // 
+            // bt_4_3
+            // 
+            this.bt_4_3.Location = new System.Drawing.Point(8, 472);
+            this.bt_4_3.Margin = new System.Windows.Forms.Padding(8);
+            this.bt_4_3.Name = "bt_4_3";
+            this.bt_4_3.Size = new System.Drawing.Size(237, 42);
+            this.bt_4_3.TabIndex = 8;
+            this.bt_4_3.Text = "4_3_Conditional";
+            this.bt_4_3.UseVisualStyleBackColor = true;
+            this.bt_4_3.Click += new System.EventHandler(this.bt_4_3_Click);
+            // 
+            // bt5_2
+            // 
+            this.bt5_2.Location = new System.Drawing.Point(8, 530);
+            this.bt5_2.Margin = new System.Windows.Forms.Padding(8);
+            this.bt5_2.Name = "bt5_2";
+            this.bt5_2.Size = new System.Drawing.Size(237, 42);
+            this.bt5_2.TabIndex = 9;
+            this.bt5_2.Text = "5_2_Customer";
+            this.bt5_2.UseVisualStyleBackColor = true;
+            this.bt5_2.Click += new System.EventHandler(this.bt5_2_Click);
+            // 
+            // bt5_3
+            // 
+            this.bt5_3.Location = new System.Drawing.Point(8, 588);
+            this.bt5_3.Margin = new System.Windows.Forms.Padding(8);
+            this.bt5_3.Name = "bt5_3";
+            this.bt5_3.Size = new System.Drawing.Size(237, 42);
+            this.bt5_3.TabIndex = 10;
+            this.bt5_3.Text = "5_3_Format";
+            this.bt5_3.UseVisualStyleBackColor = true;
+            this.bt5_3.Click += new System.EventHandler(this.bt5_3_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
@@ -155,5 +207,9 @@
         private System.Windows.Forms.Button bt_3_3;
         private System.Windows.Forms.Button bt_3_4;
         private System.Windows.Forms.Button bt_3_6;
+        private System.Windows.Forms.Button bt_4_1;
+        private System.Windows.Forms.Button bt_4_3;
+        private System.Windows.Forms.Button bt5_2;
+        private System.Windows.Forms.Button bt5_3;
     }
 }
