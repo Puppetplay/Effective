@@ -14,6 +14,7 @@ namespace Effective.Item1
     {
         private MyClass2 myClass;
 
+
         public _4_양방향바인딩폼()
         {
             InitializeComponent();
