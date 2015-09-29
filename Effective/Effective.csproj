@@ -45,6 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Item1\10_ 주의.cs" />
     <Compile Include="Item1\1_Property.cs" />
     <Compile Include="Item1\2_로직포함.cs" />
     <Compile Include="Item1\3_데이터바인딩.cs" />
@@ -63,12 +64,26 @@
     </Compile>
     <Compile Include="Item1\5_코드집중.cs" />
     <Compile Include="Item1\6_Lock.cs" />
-    <Compile Include="Item1\MainForm.cs">
+    <Compile Include="Item1\7_Virtual.cs" />
+    <Compile Include="Item1\8_Accessor.cs" />
+    <Compile Include="Item1\9_Indexer.cs" />
+    <Compile Include="Item3\4_UserDefineCast.cs" />
+    <Compile Include="Item3\5_Example.cs" />
+    <Compile Include="Item3\6_ValueType.cs" />
+    <Compile Include="Item3\7_중복.cs" />
+    <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Item1\MainForm.Designer.cs">
+    <Compile Include="MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Item2\1_ConstNReadOnly.cs" />
+    <Compile Include="Item2\2_차이.cs" />
+    <Compile Include="Item2\3_값확인.cs" />
+    <Compile Include="Item2\4_Const의활용.cs" />
+    <Compile Include="Item3\1_Cast.cs" />
+    <Compile Include="Item3\2_Is.cs" />
+    <Compile Include="Item3\3_As.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Item1\3_데이터바인딩폼.resx">
@@ -77,7 +92,7 @@
     <EmbeddedResource Include="Item1\4_양방향바인딩폼.resx">
       <DependentUpon>4_양방향바인딩폼.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Item1\MainForm.resx">
+    <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -104,7 +119,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Item1\StudyList.txt" />
-    <Content Include="즐겨찾기리스트.txt" />
+    <Content Include="Item2\StudyList.txt" />
+    <Content Include="Item3\StudyList.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

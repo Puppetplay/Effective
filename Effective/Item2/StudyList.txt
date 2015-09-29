@@ -1,0 +1,8 @@
+﻿
+Item2 const 보다는 readonly가 좋다.
+
+1. Const와 ReadOnly : ildasm.exe -> C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Bin
+2. Const와 ReadOnly의 차이
+3. 참조된 Dll의 값확인
+4. Const의 활용
+5. 수행성능 < 유연성

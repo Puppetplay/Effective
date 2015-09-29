@@ -16,7 +16,7 @@ namespace Effective
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Effective.Item1.MainForm());
+            Application.Run(new Effective.MainForm());
         }
     }
 }
