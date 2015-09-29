@@ -45,14 +45,41 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Item1\1_Property.cs" />
+    <Compile Include="Item1\2_로직포함.cs" />
+    <Compile Include="Item1\3_데이터바인딩.cs" />
+    <Compile Include="Item1\3_데이터바인딩폼.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Item1\3_데이터바인딩폼.Designer.cs">
+      <DependentUpon>3_데이터바인딩폼.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Item1\4_양방향바인딩.cs" />
+    <Compile Include="Item1\4_양방향바인딩폼.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Item1\4_양방향바인딩폼.Designer.cs">
+      <DependentUpon>4_양방향바인딩폼.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Item1\5_코드집중.cs" />
+    <Compile Include="Item1\6_Lock.cs" />
+    <Compile Include="Item1\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Item1\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Item1\3_데이터바인딩폼.resx">
+      <DependentUpon>3_데이터바인딩폼.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Item1\4_양방향바인딩폼.resx">
+      <DependentUpon>4_양방향바인딩폼.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Item1\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -74,6 +101,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Item1\StudyList.txt" />
+    <Content Include="즐겨찾기리스트.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
