@@ -10,6 +10,12 @@ namespace Effective.Item2
     {
         public const int _Millennium = 2000;
 
-        public static readonly int _ThisYear = 2004;
+        public readonly int _ThisYear;
+        static int cnt = 1;
+
+        _1_ConstNReadOnly()
+        {
+            _ThisYear = cnt++;
+        }
     }
 }

@@ -19,6 +19,7 @@ namespace Effective.Item2
             switch(CURRENT_VERSION)
             {
                 case VERSION_1_0:
+
                     break;
                 case VERSION_1_1:
                     break;

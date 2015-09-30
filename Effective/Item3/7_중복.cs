@@ -30,6 +30,10 @@ namespace Effective.Item3
             if (f != null)
             {
             }
+            else
+            {
+                throw new Exception();
+            }
         }
     }
 }
