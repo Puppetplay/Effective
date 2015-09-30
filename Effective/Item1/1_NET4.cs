@@ -10,9 +10,10 @@ namespace Effective.Item1
     {
         public void Func1()
         {
-            var customer = new Customer2
+            var customer = new Customer2()
             {
-
+                Name = "성효",
+                age = 1
             };
         }
     }

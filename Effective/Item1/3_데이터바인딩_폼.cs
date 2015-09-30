@@ -24,7 +24,7 @@ namespace Effective.Item1
         private void btBinding_Click(object sender, EventArgs e)
         {
             tbName.DataBindings.Add("Text", myClass, "Name");
-            tbName.Name = "김더존";
+            myClass.Name = "김더존";
         }
 
         private void bt값확인_Click(object sender, EventArgs e)
