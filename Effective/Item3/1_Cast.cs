@@ -31,14 +31,21 @@ namespace Effective.Item3
                     string s = (string)myObjects[i];
                     if (s != null)
                     {
+                        // 1. conter
+                        // dfaf
+                        // dfafa
+                        //afdfs 
+                        // 1.fafddaf
                     }
                     else
                     {
+                      
                     }
                 }
                 catch
                 {
                 }
+                
             }
 
         }
