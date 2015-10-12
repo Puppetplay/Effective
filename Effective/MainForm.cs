@@ -13,6 +13,7 @@ using Effective.Item2;
 using Effective.Item3;
 using Effective.Item4;
 using Effective.Item5;
+using Effective.Item6;
 
 namespace Effective
 {
@@ -86,6 +87,30 @@ namespace Effective
                 PhoneNumber = "0101111111"
             };
             string s = String.Format(new CustomFormatter(), "{0}", tempClass);
+        }
+
+        private void bt6_1_Click(object sender, EventArgs e)
+        {
+            _1_Structure tempClass = new _1_Structure();
+            tempClass.Func1();
+        }
+
+        private void bt6_2_Click(object sender, EventArgs e)
+        {
+            _2_Reference tempClass = new _2_Reference();
+            tempClass.Func1();
+        }
+
+        private void bt6_3_Click(object sender, EventArgs e)
+        {
+            Effective.Item6_3._3_값타입의장점 tempClass = new Effective.Item6_3._3_값타입의장점();
+            tempClass.Func1();
+        }
+
+        private void bt6_4_Click(object sender, EventArgs e)
+        {
+            Effective.Item6_4._4_참조타입의장점 tempClass = new Effective.Item6_4._4_참조타입의장점();
+            tempClass.Func1();
         }
     }
 }

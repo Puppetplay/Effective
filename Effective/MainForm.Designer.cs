@@ -40,6 +40,10 @@
             this.bt_4_3 = new System.Windows.Forms.Button();
             this.bt5_2 = new System.Windows.Forms.Button();
             this.bt5_3 = new System.Windows.Forms.Button();
+            this.bt6_1 = new System.Windows.Forms.Button();
+            this.bt6_2 = new System.Windows.Forms.Button();
+            this.bt6_3 = new System.Windows.Forms.Button();
+            this.bt6_4 = new System.Windows.Forms.Button();
             this.flowLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -57,6 +61,10 @@
             this.flowLayoutPanel1.Controls.Add(this.bt_4_3);
             this.flowLayoutPanel1.Controls.Add(this.bt5_2);
             this.flowLayoutPanel1.Controls.Add(this.bt5_3);
+            this.flowLayoutPanel1.Controls.Add(this.bt6_1);
+            this.flowLayoutPanel1.Controls.Add(this.bt6_2);
+            this.flowLayoutPanel1.Controls.Add(this.bt6_3);
+            this.flowLayoutPanel1.Controls.Add(this.bt6_4);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
@@ -183,6 +191,50 @@
             this.bt5_3.UseVisualStyleBackColor = true;
             this.bt5_3.Click += new System.EventHandler(this.bt5_3_Click);
             // 
+            // bt6_1
+            // 
+            this.bt6_1.Location = new System.Drawing.Point(8, 646);
+            this.bt6_1.Margin = new System.Windows.Forms.Padding(8);
+            this.bt6_1.Name = "bt6_1";
+            this.bt6_1.Size = new System.Drawing.Size(237, 42);
+            this.bt6_1.TabIndex = 11;
+            this.bt6_1.Text = "6_1_Structure";
+            this.bt6_1.UseVisualStyleBackColor = true;
+            this.bt6_1.Click += new System.EventHandler(this.bt6_1_Click);
+            // 
+            // bt6_2
+            // 
+            this.bt6_2.Location = new System.Drawing.Point(8, 704);
+            this.bt6_2.Margin = new System.Windows.Forms.Padding(8);
+            this.bt6_2.Name = "bt6_2";
+            this.bt6_2.Size = new System.Drawing.Size(237, 42);
+            this.bt6_2.TabIndex = 12;
+            this.bt6_2.Text = "6_2_Reference";
+            this.bt6_2.UseVisualStyleBackColor = true;
+            this.bt6_2.Click += new System.EventHandler(this.bt6_2_Click);
+            // 
+            // bt6_3
+            // 
+            this.bt6_3.Location = new System.Drawing.Point(8, 762);
+            this.bt6_3.Margin = new System.Windows.Forms.Padding(8);
+            this.bt6_3.Name = "bt6_3";
+            this.bt6_3.Size = new System.Drawing.Size(237, 42);
+            this.bt6_3.TabIndex = 13;
+            this.bt6_3.Text = "6_3_값타입의장점";
+            this.bt6_3.UseVisualStyleBackColor = true;
+            this.bt6_3.Click += new System.EventHandler(this.bt6_3_Click);
+            // 
+            // bt6_4
+            // 
+            this.bt6_4.Location = new System.Drawing.Point(8, 820);
+            this.bt6_4.Margin = new System.Windows.Forms.Padding(8);
+            this.bt6_4.Name = "bt6_4";
+            this.bt6_4.Size = new System.Drawing.Size(237, 42);
+            this.bt6_4.TabIndex = 14;
+            this.bt6_4.Text = "6_3_참조타입의장점";
+            this.bt6_4.UseVisualStyleBackColor = true;
+            this.bt6_4.Click += new System.EventHandler(this.bt6_4_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
@@ -211,5 +263,9 @@
         private System.Windows.Forms.Button bt_4_3;
         private System.Windows.Forms.Button bt5_2;
         private System.Windows.Forms.Button bt5_3;
+        private System.Windows.Forms.Button bt6_1;
+        private System.Windows.Forms.Button bt6_2;
+        private System.Windows.Forms.Button bt6_3;
+        private System.Windows.Forms.Button bt6_4;
     }
 }

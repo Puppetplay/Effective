@@ -1,0 +1,8 @@
+﻿
+Item7. immutable atomic value 타입이 더 좋다.
+
+1. mutable이란? 
+ -> 멀티쓰레드, 예외발생
+2. immutable
+3. immutable타입 생성시 주의점
+ 
