@@ -11,7 +11,7 @@ namespace Effective.Item3
         public void Func1()
         {
             Digit dig = new Digit(7);
-            double num = dig;
+            double num = (double)dig;
             Digit dig2 = 12;
         }
     }
@@ -21,7 +21,12 @@ namespace Effective.Item3
         public Digit(double d) { val = d; }
         public double val;
 
-        public static implicit operator double (Digit d)
+        //public static implicit operator double (Digit d)
+        //{
+        //    return d.val;
+        //}
+
+        public static explicit operator double (Digit d)
         {
             return d.val;
         }

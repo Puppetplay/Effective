@@ -8,9 +8,10 @@ namespace Effective.Item1
 {
     class _2_로직포함
     {
-        public Int32 x;
+       // public Int32 x;
         public Int32 y;
 
+       
         public Int32 X
         {
             get

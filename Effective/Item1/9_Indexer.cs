@@ -22,4 +22,13 @@ namespace Effective.Item1
             }
         }
     }
+
+    class a
+    {
+        public void Func()
+        {
+        }
+    }
+
+  
 }
