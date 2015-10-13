@@ -44,6 +44,8 @@
             this.bt6_2 = new System.Windows.Forms.Button();
             this.bt6_3 = new System.Windows.Forms.Button();
             this.bt6_4 = new System.Windows.Forms.Button();
+            this.bt8_1 = new System.Windows.Forms.Button();
+            this.bt9_3 = new System.Windows.Forms.Button();
             this.flowLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -65,6 +67,8 @@
             this.flowLayoutPanel1.Controls.Add(this.bt6_2);
             this.flowLayoutPanel1.Controls.Add(this.bt6_3);
             this.flowLayoutPanel1.Controls.Add(this.bt6_4);
+            this.flowLayoutPanel1.Controls.Add(this.bt8_1);
+            this.flowLayoutPanel1.Controls.Add(this.bt9_3);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
@@ -235,6 +239,28 @@
             this.bt6_4.UseVisualStyleBackColor = true;
             this.bt6_4.Click += new System.EventHandler(this.bt6_4_Click);
             // 
+            // bt8_1
+            // 
+            this.bt8_1.Location = new System.Drawing.Point(8, 878);
+            this.bt8_1.Margin = new System.Windows.Forms.Padding(8);
+            this.bt8_1.Name = "bt8_1";
+            this.bt8_1.Size = new System.Drawing.Size(237, 42);
+            this.bt8_1.TabIndex = 15;
+            this.bt8_1.Text = "8_1_Enum";
+            this.bt8_1.UseVisualStyleBackColor = true;
+            this.bt8_1.Click += new System.EventHandler(this.bt8_1_Click);
+            // 
+            // bt9_3
+            // 
+            this.bt9_3.Location = new System.Drawing.Point(8, 936);
+            this.bt9_3.Margin = new System.Windows.Forms.Padding(8);
+            this.bt9_3.Name = "bt9_3";
+            this.bt9_3.Size = new System.Drawing.Size(237, 42);
+            this.bt9_3.TabIndex = 16;
+            this.bt9_3.Text = "9_3_ReferenceEquals";
+            this.bt9_3.UseVisualStyleBackColor = true;
+            this.bt9_3.Click += new System.EventHandler(this.bt9_3_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
@@ -267,5 +293,7 @@
         private System.Windows.Forms.Button bt6_2;
         private System.Windows.Forms.Button bt6_3;
         private System.Windows.Forms.Button bt6_4;
+        private System.Windows.Forms.Button bt8_1;
+        private System.Windows.Forms.Button bt9_3;
     }
 }

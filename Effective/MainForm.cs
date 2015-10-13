@@ -14,6 +14,8 @@ using Effective.Item3;
 using Effective.Item4;
 using Effective.Item5;
 using Effective.Item6;
+using Effective.Item8;
+using Effective.Item9;
 
 namespace Effective
 {
@@ -110,6 +112,18 @@ namespace Effective
         private void bt6_4_Click(object sender, EventArgs e)
         {
             Effective.Item6_4._4_참조타입의장점 tempClass = new Effective.Item6_4._4_참조타입의장점();
+            tempClass.Func1();
+        }
+
+        private void bt8_1_Click(object sender, EventArgs e)
+        {
+            _1_Enum tempClass = new _1_Enum();
+            tempClass.Func1();
+        }
+
+        private void bt9_3_Click(object sender, EventArgs e)
+        {
+            _3_ReferenceEquals tempClass = new _3_ReferenceEquals();
             tempClass.Func1();
         }
     }

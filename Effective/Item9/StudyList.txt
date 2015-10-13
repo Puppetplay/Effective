@@ -1,0 +1,23 @@
+﻿
+Item8 ReferenceEqual(), static Equals(), instanceEquals(), operator==의 상호 연관성을 이해하라.
+
+public static bool ReferenceEquals(object left, object right)
+public static bool Equals(object left, object right)
+public virtual bool Equals(object right)
+public static bool operator==(Myclass left, Myclass right)
+
+1. Reference 타입의 같음?
+2. Value 타입의 같음?
+3. ReferenceEquals()
+4. Object.Equals()
+
+ * 동일관계
+ a == b 가 참이면 b == a도 참이다.
+ a == b 가 거짓이면 b == a도 거짓이다.
+ a == b 가 참이고 b == c가 참이면 a == c도 참이다.
+
+ 5. Object.Equals()
+  -> reference 타입 => Object.ReferenceEquals() 와 같음
+    -> 내용기반 비교 필요.
+  -> System.ValueType에서 재정의
+    -> 타입이 같고, 내용이 같을때 true (성능저하 reflection)

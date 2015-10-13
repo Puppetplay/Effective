@@ -89,6 +89,12 @@
     <Compile Include="Item7\1_mutable.cs" />
     <Compile Include="Item7\2_immutable.cs" />
     <Compile Include="Item7\3_주의점.cs" />
+    <Compile Include="Item8\1_Enum.cs" />
+    <Compile Include="Item8\2_Flags.cs" />
+    <Compile Include="Item8\3_Value타입초기화문제.cs" />
+    <Compile Include="Item9\3_ReferenceEquals.cs" />
+    <Compile Include="Item9\4_ObjectEquals.cs" />
+    <Compile Include="Item9\5_ObjectEquals.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -140,6 +146,8 @@
     <Content Include="Item5\StudyList.txt" />
     <Content Include="Item6\StudyList.txt" />
     <Content Include="Item7\StudyList.txt" />
+    <Content Include="Item8\StudyList.txt" />
+    <Content Include="Item9\StudyList.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
