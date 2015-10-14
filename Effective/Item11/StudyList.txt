@@ -1,0 +1,5 @@
+﻿
+Item11 foreach 루프가 더 좋다.
+
+1. 루프비교
+2. foreach의 장점

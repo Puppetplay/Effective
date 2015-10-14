@@ -48,6 +48,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Item11\1_루프비교.cs" />
+    <Compile Include="Item11\2_Foreach장점.cs" />
     <Compile Include="Item1\10_ 주의.cs" />
     <Compile Include="Item1\1_NET4.cs" />
     <Compile Include="Item1\1_Property.cs" />
@@ -95,6 +97,7 @@
     <Compile Include="Item9\3_ReferenceEquals.cs" />
     <Compile Include="Item9\4_ObjectEquals.cs" />
     <Compile Include="Item9\5_ObjectEquals.cs" />
+    <Compile Include="Item9\6_상속관계예제.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -139,6 +142,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Item11\StudyList.txt" />
     <Content Include="Item1\StudyList.txt" />
     <Content Include="Item2\StudyList.txt" />
     <Content Include="Item3\StudyList.txt" />
@@ -149,6 +153,7 @@
     <Content Include="Item8\StudyList.txt" />
     <Content Include="Item9\StudyList.txt" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

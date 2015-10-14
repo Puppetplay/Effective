@@ -21,3 +21,4 @@ public static bool operator==(Myclass left, Myclass right)
     -> 내용기반 비교 필요.
   -> System.ValueType에서 재정의
     -> 타입이 같고, 내용이 같을때 true (성능저하 reflection)
+ 6. 상속관계예제
