@@ -1,0 +1,17 @@
+﻿
+ * Garbage Collector(GC)
+ 1. Native환경
+  - 메모리 누수, Dangling 포인터, Wild 포인터 
+
+ 2. Managed 환경
+  - Native환경의 문제점을 GC가 알아서 해준다.
+  - 파일핸들, 데이터베이스 연결, GDI+객체, COM객체, 시스템객체등 unmanageed리소스에 대해서는 해제를 해야한다.
+
+ 3. GC의 알고리즘
+  - Mark & Compact 알고리즘 
+ -> 부연세부설명
+
+ 4. Finalizer의 역할과 호출시점
+  - C++와 C#의 차이
+  - Fianlizer를 가진 객체가 GC에 미치는 영향
+

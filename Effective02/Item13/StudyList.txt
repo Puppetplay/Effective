@@ -1,0 +1,10 @@
+﻿
+Item 13 static 클래스 멤버는 static 생성자를 사용하여 초기화하라.
+
+ 1. static변수를 초기화하는 방법
+  - static 생성자
+  - 선언시 초기화.
+ 2. Singleton
+  -> static 생성자 호출시점 -> 타입을 로드하는 시점
+ 3. 잘못된 방법
+
