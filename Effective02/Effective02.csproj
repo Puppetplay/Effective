@@ -58,6 +58,11 @@
     <Compile Include="Item14\1_연쇄적호출.cs" />
     <Compile Include="Item14\2_잘못된방법.cs" />
     <Compile Include="Item14\4_더나은방법.cs" />
+    <Compile Include="Item15\1_Using.cs" />
+    <Compile Include="Item15\2_TryFinally.cs" />
+    <Compile Include="Item15\3_복잡한경우.cs" />
+    <Compile Include="Item15\4_ 잘못된경우.cs" />
+    <Compile Include="Item15\5_CloseNDispose.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">

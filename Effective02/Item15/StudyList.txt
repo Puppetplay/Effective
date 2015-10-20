@@ -1,1 +1,8 @@
 ﻿
+Item 15 자원해제를 위해서 using과 try/finally를 이용하라
+
+ 1. Using
+ 2. try/finally
+ 3. 복잡한경우
+ 4. 잘못된경우
+ 5. Close와 Dispose의 차이
