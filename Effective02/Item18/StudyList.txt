@@ -1,0 +1,4 @@
+﻿
+Item 18 표준 Dispose패턴을 구현하라.
+
+ 1. MyResouceHog

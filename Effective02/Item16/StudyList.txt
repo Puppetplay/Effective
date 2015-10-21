@@ -1,0 +1,7 @@
+﻿
+Item 16 Garbage를 최소화하라
+
+ 1. 잘못된사용
+ 2. 올바른사용
+ 3. Brush.Black
+ 4. 잘못된사용2(immutabe객체)

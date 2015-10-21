@@ -63,6 +63,13 @@
     <Compile Include="Item15\3_복잡한경우.cs" />
     <Compile Include="Item15\4_ 잘못된경우.cs" />
     <Compile Include="Item15\5_CloseNDispose.cs" />
+    <Compile Include="Item16\2_올바른사용.cs" />
+    <Compile Include="Item16\1_잘못된사용.cs" />
+    <Compile Include="Item16\3_Brush.cs" />
+    <Compile Include="Item16\4_잘못된사용2.cs" />
+    <Compile Include="Item17\2_Boxing.cs" />
+    <Compile Include="Item17\3_김버그.cs" />
+    <Compile Include="Item18\MyResouceHog.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -94,8 +101,13 @@
     <Content Include="Item13\StudyList.txt" />
     <Content Include="Item14\StudyList.txt" />
     <Content Include="Item15\StudyList.txt" />
+    <Content Include="Item16\StudyList.txt" />
+    <Content Include="Item17\StudyList.txt" />
+    <Content Include="Item18\StudyList.txt" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
