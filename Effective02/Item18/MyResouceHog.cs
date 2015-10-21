@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,6 +11,9 @@ namespace Effective02.Item18
     {
         private bool _alreadyDisposed = false;
 
+        private List<int> managed = new List<int>();
+        private FileStream unmanaged = new FileStream("haha.txt", FileMode.Open);
+    
         ~MyResouceHog()
         {
             Dispose(false);
