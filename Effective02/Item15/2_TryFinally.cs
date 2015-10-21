@@ -25,10 +25,11 @@ namespace Effective02.Item15
             {
                 myConnection = new SqlConnection(connString);
                 myConnection.Open();
+                //myConnection.Dispose();
             }
             finally
             {
-                myConnection.Dispose();
+               myConnection.Dispose();
             }
         }
     }

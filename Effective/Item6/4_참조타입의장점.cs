@@ -30,19 +30,19 @@ namespace Effective.Item6_4
         void Run();
     }
 
-    //public struct MyData : IMyInterface
-    //{
-    //    public void Run()
-    //    {
-
-    //    }
-    //}
-
-    public class MyData : IMyInterface
+    public struct MyData : IMyInterface
     {
         public void Run()
         {
 
         }
     }
+
+    //public class MyData : IMyInterface
+    //{
+    //    public void Run()
+    //    {
+
+    //    }
+    //}
 }

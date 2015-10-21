@@ -12,11 +12,11 @@ namespace Effective02.Item12
         int number = 0;
         String myString = null;
 
-        private ArrayList arrayList = new ArrayList();
+        private ArrayList arrayList = new 효();
 
         public _3_사용하지말아야하는경우()
         {
-
+            
         }
 
         public _3_사용하지말아야하는경우(int size)

@@ -10,12 +10,18 @@ namespace Effective02.Item17
     {
         public void Func1()
         {
-            string str = String.Format("A few numbers:{0}, {1}, {2}", 25, 32, 50);
+            string str = String.Format("A few numbers:{0}, {1}, {2}", "25", 32, 50);
         }
 
         public void Func2()
         {
-           
+            object a = new object();
+            object b = a;
+
+
+            int i = 0;
+            object b = i;
+            i = (int)b;
         }
     }
 }

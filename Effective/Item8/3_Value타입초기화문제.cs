@@ -12,6 +12,7 @@ namespace Effective.Item8
         {
             LogMessage myMessage = new LogMessage();
 
+
         }
     }
 

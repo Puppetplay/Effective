@@ -11,6 +11,11 @@ namespace Effective02.Item16
     {
         private static Brush _blackBrush;
 
+        static Brush()
+        {
+            _blackBrush = new SolidBrush(Color.Black);
+        }
+
         public static Brush Black
         {
             get

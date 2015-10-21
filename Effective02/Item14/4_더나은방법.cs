@@ -14,7 +14,7 @@ namespace Effective02.Item14
     {
         private int _a;
 
-        public Defalut생성자(int a = 2)
+        public Defalut생성자(int a = 2, double d = 0.0)
         {
             _a = a;
         }
@@ -24,7 +24,7 @@ namespace Effective02.Item14
     {
         public void Func()
         {
-            Defalut생성자 a = new Defalut생성자();
+            Defalut생성자 a = new Defalut생성자(1);
         }
     }
 }

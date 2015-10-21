@@ -25,8 +25,8 @@ namespace Effective.Item7
         public PhoneList(Phone[] ph)
         {
             _phones = ph;
-            _phones = new Phone[ph.Length];
-            ph.CopyTo(_phones, 0);
+            //_phones = new Phone[ph.Length];
+            //ph.CopyTo(_phones, 0);
         }
 
         public IEnumerator Phones

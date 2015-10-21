@@ -8,20 +8,27 @@ namespace Effective.Item6
 {
     class _5_메모리할당차이
     {
-        C c = new C();
+        void Fun1()
+        {
+            C c = new C();
 
-        Mytype[] var = new Mytype[100];
+            Mytype[] var = new Mytype[100];
+
+            int a = 10;
+            String.Format("{0}", a);
+        }
     }
 
     public class C
     {
-        private Mytype _a = new Mytype();
-        private Mytype _b = new Mytype();
+        private Mytype _a;
+        private Mytype _b;
     }
 
     struct Mytype
     {
-
+        int a;
+        int b;
     }
 
     //class Mytype

@@ -22,14 +22,23 @@ namespace Effective.Item11
             {
                 for(int j = 0; j < numbers.GetLength(1); j++)
                 {
-                    string a = numbers[i, j].ToString();
+                    //string a = numbers[i, j].ToString();
                 }
             }
 
             foreach(int number in numbers)
             {
-                string a = number.ToString();
+                //string a = number.ToString();
             }
+
+            List<int> a = new List<int>();
+            List<int> d = new List<int>();
+            foreach(int i in a)
+            {
+                d.Add(i);
+            }
+
+
 
             int[] foo = new int[100];
             ArrayList f = new ArrayList(100);

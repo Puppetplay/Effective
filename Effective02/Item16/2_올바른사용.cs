@@ -12,9 +12,16 @@ namespace Effective02.Item16
     {
         private readonly Font _myFont = new Font("Arial", 10.0f);
 
+        public void Dispose()
+        {
+            _myFont.Dispose();
+        }
+
         protected void OnPaint(PaintEventArgs e)
         {
             e.Graphics.DrawString(DateTime.Now.ToString(), _myFont, null, new PointF());
         }
+
+        
     }
 }

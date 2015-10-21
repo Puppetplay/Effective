@@ -24,12 +24,14 @@ namespace Effective02.Item14
 
         public _2_잘못된방법(int initialCount, string name)
         {
+        
             commonConstructor(initialCount, name);
         }
 
         private void commonConstructor(int initialCount, string name)
         {
-            _coll = (initialCount > 0) ? new ArrayList(initialCount) : new ArrayList();
+
+        _coll = (initialCount > 0) ? new ArrayList(initialCount) : new ArrayList();
             _name = name;
         }
     }

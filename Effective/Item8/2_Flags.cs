@@ -15,6 +15,7 @@ namespace Effective.Item8
             // Flat이 0일때와 1일때
             if ((style & Styles.Flat) != 0)
             {
+
             }
         }
     }

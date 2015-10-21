@@ -10,10 +10,13 @@ namespace Effective.Item6_3
     {
         public void Func1()
         {
-            MyClass myClass = new MyClass();
-            MyData myData = myClass.Foo();
-            int value = myData.value;
-            myData.value = 1;
+            //MyClass myClass = new MyClass();
+            //MyData myData = myClass.Foo();
+            //int value = myData.value;
+            //myData.value = 1;
+
+            MyData m = new MyData();
+            MyData b = m;
         }
     }
 
@@ -28,9 +31,16 @@ namespace Effective.Item6_3
         }
     }
 
-    public struct MyData
+    public class MyData
     {
         public int value { get; set; }
+
+        public MyData Clone()
+        {
+            MyData temp = new MyData();
+            temp.value = this.value;
+            return temp;
+        }
     }
 
     //// 캡슐화 위배

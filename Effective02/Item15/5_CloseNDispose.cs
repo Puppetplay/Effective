@@ -9,6 +9,7 @@ namespace Effective02.Item15
 {
     class _5_CloseNDispose
     {
+        SqlConnection myConnection = null;
         public void ExcuteCommand(string connString, string commandString)
         {
             SqlConnection myConnection = null;
@@ -26,6 +27,8 @@ namespace Effective02.Item15
                     myConnection.Close();
                 }
             }
+
+            myConnection.Open();
         }
 
         public void ExcuteCommand2(string connString, string commandString)

@@ -24,7 +24,7 @@ namespace Effective.Item8
 
     public enum Planet
     {
-        //None = 0,
+        None = 0,
         Mercury = 1,
         Venus = 2,
         Earth = 3,
@@ -42,7 +42,7 @@ namespace Effective.Item8
         Planet _whichPlanet;
         Double _magnitude;
 
-        //private ObservationData()
+        //private ObservationData(Planet target, Double mag)
         //{
         //    //구조체에서는 사용불가.
         //}
