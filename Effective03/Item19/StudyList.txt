@@ -1,0 +1,12 @@
+﻿
+Item 19 상속보다는 interface를 정의하고 구현하는 것이 좋다.
+
+ 1. interface 
+  -> 메서드, 프로퍼티, 인덱서, 이벤트
+
+ 2. 상속
+  
+ 3. interface와 상속의 차이점
+  -> 변경에 따른 차이
+
+ 4. CollectionBase
