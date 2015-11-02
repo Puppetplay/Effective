@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -18,4 +19,29 @@ namespace Effective03.Item19
             Console.WriteLine("Run");
         }
     }
+
+    public class Test_3 : IEnumerable<int>
+    {
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            throw new NotImplementedException();
+        }
+
+        IEnumerator<int> IEnumerable<int>.GetEnumerator()
+        {
+            throw new NotImplementedException();
+        }
+    }
+
+    public class Test_4
+    {
+        public void Func1()
+        {
+            foreach(var i in new Test_3())
+            {
+
+            }
+        }
+    }
+
 }

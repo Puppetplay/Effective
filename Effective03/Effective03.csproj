@@ -54,6 +54,12 @@
     <Compile Include="Item19\1_Interface.cs" />
     <Compile Include="Item19\2_ 상속.cs" />
     <Compile Include="Item19\4_CollectionBase.cs" />
+    <Compile Include="Item19\5_PrintCollection.cs" />
+    <Compile Include="Item19\6_DataSet.cs" />
+    <Compile Include="Item19\7_Employee.cs" />
+    <Compile Include="Item19\8_BoxingUnBoxing.cs" />
+    <Compile Include="Item20\1_인터페이스구현.cs" />
+    <Compile Include="Item21\1_Delegate.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -83,6 +89,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Item19\StudyList.txt" />
+    <Content Include="Item20\StudyList.txt" />
+    <Content Include="Item21\StudyList.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="System\Collections\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

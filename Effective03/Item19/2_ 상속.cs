@@ -14,11 +14,25 @@ namespace Effective03.Item19
         }
     }
 
-    class _2__상속 :BaseClass
+    class _2__상속 : BaseClass
     {
         public override void Run()
         {
             Console.WriteLine("Run");
+        }
+
+        public void Run2()
+        {
+
+        }
+    }
+
+    public class TestClass
+    {
+        public void Func1()
+        {
+            _2__상속 c = new _2__상속();
+            c.Run();
         }
     }
 }
