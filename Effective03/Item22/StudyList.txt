@@ -1,0 +1,7 @@
+﻿
+Item 22 이벤트를 이용하여 외부로 노출할 인터페이스를 정의하라.
+
+ 1. Logger
+  
+ 2. https://msdn.microsoft.com/en-us/library/018hxwa8(v=vs.110).aspx
+

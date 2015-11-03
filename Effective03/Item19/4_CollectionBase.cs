@@ -47,7 +47,7 @@ namespace Effective03.Item19
         {
             try
             {
-                int newValue = System.Convert.ToInt32(value);
+                int newValue = Convert.ToInt32(value);
                 Console.WriteLine("Inserting {0} at position {1}", index.ToString(), value.ToString());
 
                 Console.WriteLine("List Contains {0} items", this.List.Count.ToString());

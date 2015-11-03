@@ -7,7 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Effective03.Item19;
+using Effective03.Item22;
+using Effective03.Item22_2;
 
 namespace Effective03
 {
@@ -20,8 +21,14 @@ namespace Effective03
 
         private void bt1_3_Click(object sender, EventArgs e)
         {
-            _4_CollectionBase c = new _4_CollectionBase();
-            c.Func1();
+            TestClass01 testClass = new TestClass01();
+            testClass.Func1();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            TestClass02 testClass = new TestClass02();
+            testClass.Func1();
         }
     }
 }
