@@ -1,0 +1,10 @@
+﻿
+Item 21 delegate를 이용하여 콜백을 표현하라.
+
+  1. delegate 
+
+  2. Muticast delegate
+   -> 예외발생시
+   -> 반환결과
+
+  

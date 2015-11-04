@@ -1,0 +1,11 @@
+﻿
+Item 23 클래스 내부 객체에 대한 reference 반환을 피하라.
+
+ 1. MyBusinessObject
+ 2. 변경을 막는방법
+  - value타입
+  - immutable 타입
+  - interface
+  - wrapper
+  3. DataViewManager
+  4. DataViewManager2

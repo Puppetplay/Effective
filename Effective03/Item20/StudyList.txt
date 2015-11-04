@@ -1,0 +1,5 @@
+﻿
+Item 20 interface의 구현과 virtual 메서드의 overriding을 구분하라.
+
+  1. interface 구현
+ 
