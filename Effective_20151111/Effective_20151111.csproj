@@ -51,6 +51,13 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Item27\1_ICloneable.cs" />
+    <Compile Include="Item27\5_ valueNReference.cs" />
+    <Compile Include="Item27\6_ICloneable상속.cs" />
+    <Compile Include="Item27\7_복사생성자.cs" />
+    <Compile Include="Item28\1_Shape.cs" />
+    <Compile Include="Item29\1_동일한결과.cs" />
+    <Compile Include="Item29\3_사용해도괜찮은경우.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -74,6 +81,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Item27\StudyList.txt" />
+    <Content Include="Item28\StudyList.txt" />
+    <Content Include="Item29\StudyList.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
