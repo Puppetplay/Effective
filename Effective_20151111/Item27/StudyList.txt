@@ -1,0 +1,19 @@
+﻿
+Item 27 ICloneable의 구현을 피하라.
+
+ 1. ICloneable?
+  -> 복사
+
+ 2. deep copy, shallow copy
+  
+ 3. 왜 ICloneable을 사용하며 안되는지?
+  -> 모든 하위클래스에 영향을 줌 : 모든 하위클래스가 ICloneable을 구현해야함.
+  -> 귀찮아짐
+
+ 4. 내장자료형(값타입)만을 포함하는 어떻게 ICloneable을 구현하는가?
+
+ 5. value type이 reference를 포함하는 경우
+ 
+ 6. ICloneable을 구현한 클래스를 상속
+
+ 7. 복사생성자

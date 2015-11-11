@@ -1,0 +1,6 @@
+﻿
+Item 28 형변환 연산자의 구현을 피하라.
+
+ 1. Shape
+ 2. ComputeArea, Flatten의 차이
+       
