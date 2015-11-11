@@ -1,0 +1,21 @@
+﻿
+Item 25. serializable 타입이 더 좋다.
+
+ 1. serializable이란?
+
+ 2. Serializalbe 프로퍼티
+
+ 3. Serialize를 지원하지 않는 타입 포함
+
+ 4. NonSerializalbe
+  -> NonSerializable 멤버변수의 값
+  -> IDeserializationCallBack -> OnDeserialization()
+  -> OnDeserialization 호출순서
+
+ 5. serialize된 데이터의 버전변경(런타임 오류발생)
+  -> ISerializable interface구현 
+
+ 6. UnSealed 클래스 및 상속
+
+
+  
