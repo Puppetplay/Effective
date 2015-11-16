@@ -10,6 +10,15 @@ namespace Effective_20151111.Item24
 {
     class _1_DefaultSort
     {
+        public void Func1()
+        {
+            List<Customer> customerList = new List<Customer>();
+            customerList.Add(new Customer { Name = "김한호" });
+            customerList.Add(new Customer { Name = "김성효" });
+
+            IComparer<Customer> comparer = new GenericComparer<Customer>();
+            customerList.Sort(comparer);
+        }
     }
 
     [DefaultSort("Name")]
@@ -27,6 +36,14 @@ namespace Effective_20151111.Item24
         public decimal Balance
         {
             get { return _balance; }
+        }
+
+        public decimal AccountValue
+        {
+            get
+            {
+                return 10000;
+            }
         }
     }
 
@@ -47,7 +64,8 @@ namespace Effective_20151111.Item24
         }
     }
 
-    internal class GenericComparer : IComparer
+    // Comparer
+    internal class GenericComparer<T> : IComparer<T>
     {
         private readonly PropertyDescriptor _sortProp;
 
@@ -55,16 +73,16 @@ namespace Effective_20151111.Item24
         private readonly bool _reverse = false;
 
         // 타입을 인자로 받는 생성자
-        public GenericComparer(Type t) : this(t, false)
+        public GenericComparer() : this(false)
         {
         }
 
         // 타입과 정렬방식을 인자로 받는 생성자
-        public GenericComparer(Type t, bool reverse)
+        public GenericComparer(bool reverse)
         {
             _reverse = reverse;
 
-            object[] a = t.GetCustomAttributes(typeof(DefaultSortAttribute), false);
+            object[] a = typeof(T).GetCustomAttributes(typeof(DefaultSortAttribute), false);
 
             // 프로퍼티의 PropertyDescriptor획득
             if(a.Length > 0)
@@ -72,7 +90,7 @@ namespace Effective_20151111.Item24
                 DefaultSortAttribute sortName = a[0] as DefaultSortAttribute;
                 string name = sortName.Name;
 
-                PropertyDescriptorCollection props = TypeDescriptor.GetProperties(t);
+                PropertyDescriptorCollection props = TypeDescriptor.GetProperties(typeof(T));
 
                 if(props.Count > 0)
                 {
@@ -88,7 +106,7 @@ namespace Effective_20151111.Item24
             }
         }
 
-        public int Compare(object left, object right)
+        public int Compare(T left, T right)
         {
             if ((left == null) && (right == null)) { return 0; }
             if (left == null) { return -1; }
@@ -99,9 +117,9 @@ namespace Effective_20151111.Item24
             IComparable rField = _sortProp.GetValue(right) as IComparable;
 
             int rVal = 0;
-            if(lField == null)
+            if (lField == null)
             {
-                if(rField == null)
+                if (rField == null)
                 {
                     return 0;
                 }
@@ -114,5 +132,7 @@ namespace Effective_20151111.Item24
             return (_reverse) ? -rVal : rVal;
         }
     }
+
+
 
 }

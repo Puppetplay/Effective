@@ -80,6 +80,6 @@ namespace Effective_20151111.Item26
         public int CompareTo(Customer2 right)
         {
             return _name.CompareTo(right._name);
-      E:\Git\Effective\Effective_20151111\Program.cs  }
+        }
     }
 }

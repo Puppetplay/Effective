@@ -28,12 +28,48 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.bt_24_1 = new System.Windows.Forms.Button();
+            this.flowLayoutPanel1.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.Controls.Add(this.bt_24_1);
+            this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(303, 394);
+            this.flowLayoutPanel1.TabIndex = 0;
+            // 
+            // bt_24_1
+            // 
+            this.bt_24_1.Location = new System.Drawing.Point(10, 10);
+            this.bt_24_1.Margin = new System.Windows.Forms.Padding(10);
+            this.bt_24_1.Name = "bt_24_1";
+            this.bt_24_1.Size = new System.Drawing.Size(277, 39);
+            this.bt_24_1.TabIndex = 0;
+            this.bt_24_1.Text = "24_1_DefaultSort";
+            this.bt_24_1.UseVisualStyleBackColor = true;
+            this.bt_24_1.Click += new System.EventHandler(this.bt_24_1_Click);
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(303, 394);
+            this.Controls.Add(this.flowLayoutPanel1);
+            this.Name = "Form1";
             this.Text = "Form1";
+            this.flowLayoutPanel1.ResumeLayout(false);
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+        private System.Windows.Forms.Button bt_24_1;
     }
 }
 
