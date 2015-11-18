@@ -13,7 +13,7 @@ namespace Effective03.Item20
 
     public class MyClass : IMsg
     {
-        public void Message()
+        public virtual void Message()
         {
             Console.WriteLine("MyClass");
         }
@@ -21,7 +21,7 @@ namespace Effective03.Item20
 
     public class MyDerivedClass : MyClass
     {
-        public new void Message()
+        public void Message()
         {
             Console.WriteLine("MyDerivedClass");
         }
@@ -39,19 +39,19 @@ namespace Effective03.Item20
     {
         public void Func1()
         {
+            //MyDerivedClass d = new MyDerivedClass();
+            //d.Message(); // ???
+            //IMsg m = d as IMsg;
+            //m.Message(); // ???
+
+            //MyDerivedClass2 d2 = new MyDerivedClass2();
+            //d2.Message(); // ???
+            //IMsg m2 = d2 as IMsg;
+            //m2.Message(); // ???
+
             MyDerivedClass d = new MyDerivedClass();
             d.Message(); // ???
             IMsg m = d as IMsg;
-            m.Message(); // ???
-
-            MyDerivedClass d2 = new MyDerivedClass();
-            d2.Message(); // ???
-            IMsg m2 = d2 as IMsg;
-            m2.Message(); // ???
-
-            d = new MyDerivedClass();
-            d.Message(); // ???
-            m = d as IMsg;
             m.Message(); // ???
             MyClass b = d;
             b.Message(); // ???

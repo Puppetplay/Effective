@@ -30,7 +30,7 @@ namespace Effective03.Item19
         public void Fun1()
         {
             DataTable dt = new DataTable();
-            PrintCollection(dt);
+            PrintCollection(dt.Rows);
             // Array, ArrayList, DataTable, HashTable
         }
     }
