@@ -10,7 +10,7 @@ Item 25. serializable 타입이 더 좋다.
  4. NonSerializalbe
   -> NonSerializable 멤버변수의 값
   -> IDeserializationCallBack -> OnDeserialization()
-  -> OnDeserialization 호출순서
+  -> OnDeserialization 호출순서 보장X
 
  5. serialize된 데이터의 버전변경(런타임 오류발생)
   -> ISerializable interface구현 

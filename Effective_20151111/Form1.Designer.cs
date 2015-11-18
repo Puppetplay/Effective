@@ -30,12 +30,14 @@
         {
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.bt_24_1 = new System.Windows.Forms.Button();
+            this.bt25_3 = new System.Windows.Forms.Button();
             this.flowLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // flowLayoutPanel1
             // 
             this.flowLayoutPanel1.Controls.Add(this.bt_24_1);
+            this.flowLayoutPanel1.Controls.Add(this.bt25_3);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
@@ -52,6 +54,17 @@
             this.bt_24_1.Text = "24_1_DefaultSort";
             this.bt_24_1.UseVisualStyleBackColor = true;
             this.bt_24_1.Click += new System.EventHandler(this.bt_24_1_Click);
+            // 
+            // bt25_3
+            // 
+            this.bt25_3.Location = new System.Drawing.Point(10, 69);
+            this.bt25_3.Margin = new System.Windows.Forms.Padding(10);
+            this.bt25_3.Name = "bt25_3";
+            this.bt25_3.Size = new System.Drawing.Size(277, 39);
+            this.bt25_3.TabIndex = 1;
+            this.bt25_3.Text = "25_3_Serialize";
+            this.bt25_3.UseVisualStyleBackColor = true;
+            this.bt25_3.Click += new System.EventHandler(this.bt25_3_Click);
             // 
             // Form1
             // 
@@ -70,6 +83,7 @@
 
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.Button bt_24_1;
+        private System.Windows.Forms.Button bt25_3;
     }
 }
 
