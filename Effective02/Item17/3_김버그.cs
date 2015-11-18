@@ -11,7 +11,6 @@ namespace Effective02.Item17
     {
         public void Func1()
         {
-        
             ArrayList attendees = new ArrayList();
             Person p = new Person("Old Name");
             attendees.Add(p);

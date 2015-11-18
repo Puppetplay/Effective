@@ -18,7 +18,6 @@ namespace Effective02.Item13
 
         private void set(String str)
         {
-            _str = str;
         }
     }
 }

@@ -20,7 +20,6 @@ namespace Effective02.Item17
 
 
             int i = 0;
-            object b = i;
             i = (int)b;
         }
     }
