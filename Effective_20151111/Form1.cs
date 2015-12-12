@@ -16,5 +16,13 @@ namespace Effective_20151111
         {
             InitializeComponent();
         }
+
+        private void bt_24_1_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void bt25_3_Click(object sender, EventArgs e)
+        {
+        }
     }
 }
