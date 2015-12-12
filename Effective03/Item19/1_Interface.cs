@@ -9,6 +9,7 @@ namespace Effective03.Item19
 {
     public interface IRunable
     {
+        int a { set; get; }
         void Run();
     }
 

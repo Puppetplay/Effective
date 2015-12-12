@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Effective03.Item19
 {
-    public struct URLInfo : IComparable
+    public struct URLInfo
     {
         private string URL;
         private string description;

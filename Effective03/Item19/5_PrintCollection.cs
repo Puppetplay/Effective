@@ -10,6 +10,7 @@ namespace Effective03.Item19
 {
     class _5_PrintCollection
     {
+        // 인자가 다른 두함수
         public void PrintCollection(IEnumerable collection)
         {
             foreach(object o in collection)
@@ -30,6 +31,7 @@ namespace Effective03.Item19
         {
             DataTable dt = new DataTable();
             PrintCollection(dt.Rows);
+            // Array, ArrayList, DataTable, HashTable
         }
     }
 }
