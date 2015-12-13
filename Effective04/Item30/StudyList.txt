@@ -1,0 +1,12 @@
+﻿
+Item 30 CLS를 준수하는 어셈블리가 더 좋다.
+
+  1. CLS란?
+   -> Common Language Specification
+  
+  2. CLS 준수 규칙
+   -> public, protected 멤버의 인자형, 반환형은 CLS 규격을 지켜야한다.
+   [assembly:CLSCompliant(true)] -> 확인
+
+  3. 연산자 오버로딩
+   

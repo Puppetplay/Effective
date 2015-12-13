@@ -91,8 +91,17 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Item30\2_CLSCompliant.cs" />
+    <Compile Include="Item30\3_Overloading.cs" />
+    <Compile Include="Item31\1_BuildMsg.cs" />
+    <Compile Include="Item31\3_Inlining.cs" />
+    <Compile Include="Item33\1_ArrayList.cs" />
+    <Compile Include="Item33\3_PhoneValidator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -120,6 +129,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Intro\StudyList.txt" />
+    <Content Include="Item30\StudyList.txt" />
+    <Content Include="Item31\StudyList.txt" />
+    <Content Include="Item32\StudyList.txt" />
+    <Content Include="Item33\StudyList.txt" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5">
@@ -132,6 +145,12 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Effective04_Dll\Effective04_Dll.csproj">
+      <Project>{44c0fc10-3799-4ea2-bdd7-9e7d4fc7b8dd}</Project>
+      <Name>Effective04_Dll</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
