@@ -15,6 +15,19 @@ namespace Effective03.Item19
 
     class _1_Interface : IRunable
     {
+        public int a
+        {
+            get
+            {
+                throw new NotImplementedException();
+            }
+
+            set
+            {
+                throw new NotImplementedException();
+            }
+        }
+
         public void Run()
         {
             Console.WriteLine("Run");

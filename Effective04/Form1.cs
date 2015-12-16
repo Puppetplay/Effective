@@ -7,8 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Effective04.Item30;
 
-namespace Effective_20151111
+namespace Effective04
 {
     public partial class Form1 : Form
     {
@@ -17,12 +18,10 @@ namespace Effective_20151111
             InitializeComponent();
         }
 
-        private void bt_24_1_Click(object sender, EventArgs e)
+        private void bt30_1_Click(object sender, EventArgs e)
         {
-        }
-
-        private void bt25_3_Click(object sender, EventArgs e)
-        {
+            _2_CLSCompliant cls = new _2_CLSCompliant();
+            cls.TheProperty = new Effective04_Dll.MyClass();
         }
     }
 }
