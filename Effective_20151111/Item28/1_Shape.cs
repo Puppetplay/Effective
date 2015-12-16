@@ -15,12 +15,12 @@ namespace Effective_20151111.Item28
             ComputeArea(c);
             Flatten(c);
 
-            //Circle c2 = new Circle(new PointF(3.0f, 0), 5.0f);
-            //Flatten(new Ellipse(c2));
+            Circle c2 = new Circle(new PointF(3.0f, 0), 5.0f);
+            Flatten(new Ellipse(c2));
 
-            //Circle c3 = new Circle(new PointF(3.0f, 0), 5.0f);
-            //Ellipse e = new Ellipse(c3);
-            // Flatten(new Ellipse(c3));
+            Circle c3 = new Circle(new PointF(3.0f, 0), 5.0f);
+            Ellipse e = new Ellipse(c3);
+            Flatten(new Ellipse(c3));
 
 
         }
@@ -104,11 +104,11 @@ namespace Effective_20151111.Item28
             set { _radius2 = value; }
         }
 
-        //public Ellipse(Circle c)
-        //{
-        //    _radius1 = c.R1;
-        //    _radius2 = c.R1;
-        //}
+        public Ellipse(Circle c)
+        {
+            _radius1 = c.R1;
+            _radius2 = c.R1;
+        }
 
         public Ellipse() : this(PointF.Empty, PointF.Empty, 0, 0)
         {

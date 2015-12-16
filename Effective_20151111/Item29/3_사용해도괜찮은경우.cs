@@ -18,15 +18,15 @@ namespace Effective_20151111.Item29
 
     public class BaseWidget
     {
-        //public void DoWidgetThings()
-        //{
+        public void DoWidgetThings()
+        {
 
-        //}
+        }
     }
 
     public class MyWidget : BaseWidget
     {
-        public void DoWidgetThings()
+        public new void DoWidgetThings()
         {
             // BraBraBra
         }

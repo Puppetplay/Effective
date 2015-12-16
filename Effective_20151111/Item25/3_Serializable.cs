@@ -54,6 +54,7 @@ namespace Effective_20151111.Item25
         private OtherClass _object;
     }
 
+    [Serializable]
     public class OtherClass
     {
 
