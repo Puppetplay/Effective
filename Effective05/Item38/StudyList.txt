@@ -1,0 +1,5 @@
+﻿
+Item 38 데이터 바인딩을 사용하라.
+
+ 1. NoBinding
+ 2. DataBinding   

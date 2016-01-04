@@ -1,0 +1,6 @@
+﻿
+Item 36 닷넷 런타임의 진단기능을 활용하라.
+
+ 1. System.Diagnostics.Debug
+    System.Diagnostics.Trace
+	System.Diagnostics.EventLog

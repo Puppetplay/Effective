@@ -1,0 +1,20 @@
+﻿
+Item 35 이벤트 핸들러보다 override를 사용한는 편이 낫다.
+
+  1. Overriding.
+   -> Base.... 호출하는까닭 : 이미 결합된 이벤트 핸들러들 호출
+
+  2. EventHandler.
+
+  3. Overriding의 장점.
+   -> 예외발생시 호출여부
+   -> 성능 : 이벤트의 Collection
+   -> 단일의 메서드 vs 두개의 메서드
+
+  4. EventHandler의 존재이유.
+   -> 상속관계에서만 사용가능
+   -> Button in Form
+   -> 런타임시 결합가능  
+
+   * 상속관계의 하위 클래스에서 하나의 이벤트를 처리하기 위해 하나의 메서드로 충분한경우, override를 사용하라.
+

@@ -1,0 +1,15 @@
+﻿
+Item 37 표준 환경설정 메커니즘을 이용하라.
+
+ 1. 
+  ini -> 복잡한 정보의 구성을 표현하기엔 한계
+  레지스트리 -> 악의적인 프로그램들의 공격에 대한 위험(관리자권한)
+
+ 2. 어플리케이션 환경설정 파일(XML)
+ 3. <appSettings>
+ 4. ASP.NET
+   machine.config < subdir1 < subdir2
+ 5. MyApp.exe -> MyApp.exe.config
+ 6. GlobalSettings
+ 7. 저장위치
+   
