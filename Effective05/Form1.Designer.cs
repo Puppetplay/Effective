@@ -28,12 +28,49 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.bt6_4 = new System.Windows.Forms.Button();
+            this.flowLayoutPanel1.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.AutoScroll = true;
+            this.flowLayoutPanel1.Controls.Add(this.bt6_4);
+            this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(292, 468);
+            this.flowLayoutPanel1.TabIndex = 1;
+            // 
+            // bt6_4
+            // 
+            this.bt6_4.Location = new System.Drawing.Point(8, 8);
+            this.bt6_4.Margin = new System.Windows.Forms.Padding(8);
+            this.bt6_4.Name = "bt6_4";
+            this.bt6_4.Size = new System.Drawing.Size(237, 42);
+            this.bt6_4.TabIndex = 14;
+            this.bt6_4.Text = "36_Trace";
+            this.bt6_4.UseVisualStyleBackColor = true;
+            this.bt6_4.Click += new System.EventHandler(this.bt6_4_Click);
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(292, 468);
+            this.Controls.Add(this.flowLayoutPanel1);
+            this.Name = "Form1";
             this.Text = "Form1";
+            this.flowLayoutPanel1.ResumeLayout(false);
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+        private System.Windows.Forms.Button bt6_4;
     }
 }
 

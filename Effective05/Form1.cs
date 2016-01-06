@@ -16,5 +16,11 @@ namespace Effective05
         {
             InitializeComponent();
         }
+
+        private void bt6_4_Click(object sender, EventArgs e)
+        {
+            Item36._1_configuration tempClass = new Item36._1_configuration();
+            tempClass.Func1();
+        }
     }
 }

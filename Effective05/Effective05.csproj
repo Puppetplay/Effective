@@ -33,6 +33,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Windows" />
     <Reference Include="System.Xml.Linq" />
@@ -54,12 +55,16 @@
     </Compile>
     <Compile Include="Item35\1_Overriding.cs" />
     <Compile Include="Item35\2_EventHandler.cs" />
+    <Compile Include="Item36\1_configuration.cs" />
     <Compile Include="Item37\6_GlobalSettings.cs" />
     <Compile Include="Item37\7_SavePath.cs" />
     <Compile Include="Item38\1_NoBinding.cs" />
     <Compile Include="Item38\2_DataBinding.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
